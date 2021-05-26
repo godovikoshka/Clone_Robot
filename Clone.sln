@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clone", "Clone\Clone.csproj", "{602C1BBD-9561-4302-AE25-179336D88F0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robot_Test", "Robot_Test\Robot_Test.csproj", "{8A6D562A-1FFE-40BA-B2D4-4B3858AF7CE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{602C1BBD-9561-4302-AE25-179336D88F0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{602C1BBD-9561-4302-AE25-179336D88F0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{602C1BBD-9561-4302-AE25-179336D88F0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{602C1BBD-9561-4302-AE25-179336D88F0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A6D562A-1FFE-40BA-B2D4-4B3858AF7CE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A6D562A-1FFE-40BA-B2D4-4B3858AF7CE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A6D562A-1FFE-40BA-B2D4-4B3858AF7CE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A6D562A-1FFE-40BA-B2D4-4B3858AF7CE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {23C97942-CA72-411B-BE67-EBC65A8AE2A9}
+	EndGlobalSection
+EndGlobal
