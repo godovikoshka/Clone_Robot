@@ -30,29 +30,5 @@ namespace Robot_Test
             Assert.AreEqual(result.width, R2D2.width);
             Assert.AreEqual(result.length, R2D2.length);
         }
-
-        [TestMethod]
-        public void TestMethod3()
-        {
-            var R3D3 = new Robot("zzxx33", "green", 125, 75, 45);
-            var result = R3D3.Clone();
-            Assert.AreEqual(result.model, R3D3.model);
-            Assert.AreEqual(result.color, R3D3.color);
-            Assert.AreEqual(result.height, R3D3.height);
-            Assert.AreEqual(result.width, R3D3.width);
-            Assert.AreEqual(result.length, R3D3.length);
-        }
-
-        [TestMethod]
-        public void TestMethod4()
-        {
-            var R4D4 = new Robot("ccvv44", "yellow", 100, 100, 100);
-            var result = R4D4.Clone();
-            Assert.AreEqual(result.model, R4D4.model);
-            Assert.AreEqual(result.color, R4D4.color);
-            Assert.AreEqual(result.height, R4D4.height);
-            Assert.AreEqual(result.width, R4D4.width);
-            Assert.AreEqual(result.length, R4D4.length);
-        }
     }
 }
