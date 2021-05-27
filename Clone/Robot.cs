@@ -2,11 +2,12 @@
 {
     public class Robot
     {
-        public string model;
-        public string color;
-        public int height;
-        public int width;
-        public int length;
+        public string model { get; set; }
+        public string color { get; set; }
+        public int height { get; set; }
+        public int width { get; set; }
+        public int length { get; set; }
+        
         public Robot(string model, string color, int height, int width, int length)
         {
             this.model = model;
