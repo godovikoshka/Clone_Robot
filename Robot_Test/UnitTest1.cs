@@ -18,17 +18,5 @@ namespace Robot_Test
             Assert.AreEqual(result.width, R1D1.width);
             Assert.AreEqual(result.length, R1D1.length);
         }
-
-        [TestMethod]
-        public void TestMethod2()
-        {
-            var R2D2 = new Robot("aass22", "red", 190, 30, 15);
-            var result = R2D2.Clone();
-            Assert.AreEqual(result.model, R2D2.model);
-            Assert.AreEqual(result.color, R2D2.color);
-            Assert.AreEqual(result.height, R2D2.height);
-            Assert.AreEqual(result.width, R2D2.width);
-            Assert.AreEqual(result.length, R2D2.length);
-        }
     }
 }
